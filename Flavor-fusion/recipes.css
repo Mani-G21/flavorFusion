@@ -1,0 +1,26 @@
+body{
+    background-image: url(images/foodBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+.intro-nav .small-logo{
+    width: 50px;
+}
+
+.intro{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 60px white;
+}
+.gallery-card{
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+    text-align: center;
+}
+
+

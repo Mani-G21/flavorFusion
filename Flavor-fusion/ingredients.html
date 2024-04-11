@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search-Ingredients</title>
+    <link rel="stylesheet" href="ingredients.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">   
+
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-wrapper black intro-nav">
+            <img src="/images/logo2.jpeg" alt="" class="small-logo img-adjust">
+          <img src="/images/logo3.png" width="500px" class="text-logo img-adjust" height="90%">
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="./index.html" id="hey">Home</a></li>
+            <li><a href="#" >About</a></li>
+            <li><a href="#" >Support</a></li>
+          </ul>
+        </div>
+    </nav>
+
+
+    <nav id="searchNav">
+        <div class="nav-wrapper black" id="searchBar">
+          <form id="searchForm">
+            <div class="input-field">
+              <input id="search" type="search" required placeholder="Enter the ingredient">
+              <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+              <i class="material-icons" id="cancelSearch">close</i>
+            </div>
+          </form>
+        </div>
+      </nav>
+
+    <div class="gallery" id="gallery">
+    </div>
+    <script src="ingredients.js"></script>
+</body>
+</html>

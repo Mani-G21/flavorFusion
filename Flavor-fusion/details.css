@@ -1,0 +1,47 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.intro-nav .small-logo{
+    width: 50px;
+}
+
+.outerbox{
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+p, li{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: larger;
+}
+.outerbox .right img{
+    width: 460px;
+    height: auto;
+    margin: auto;
+    margin-right: 0px;
+    border: 10px solid black;
+}
+.outerbox .left,.outerbox .right, .instructions .left, .instructions .right{
+    flex-basis: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.instructions{
+    width: 70vw;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+iframe{
+    margin-left: 100px;
+}

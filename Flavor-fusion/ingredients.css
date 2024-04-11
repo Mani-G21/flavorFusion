@@ -1,0 +1,37 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(240, 219, 199);
+    
+}
+.intro-nav .small-logo{
+    width: 50px;
+}
+
+.gallery{
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    margin-top: 10vh;
+}
+
+.gallery-card{
+    width: 21%;
+    margin: 2%;
+    /* background-color: gray; */
+}
+
+
+#searchNav{
+    width: 85vw;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.card-action{
+  
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(240, 219, 199);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.intro-nav .small-logo{
+    width: 50px;
+}
+
+.intro{
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    background-image: url(/images/intro-table.png);
+    image-rendering: optimizeQuality;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    background-position-x: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.selectOptions{
+    display: flex;
+    width: 100vw;
+
+}
+
+.selectOptions .card{
+    width: 22%;
+    height: 100%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.dancing-script{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight:bolder;
+    font-style: bold;
+    font-size: x-large;
+  }
+
+.intro h2{
+    font-family: "Dancing Script", cursive;
+    zoom: 120%;
+    text-shadow: 10px 10px 10px black;
+}
+.card{
+    border-radius: 10%;
+}
+.card .card-image{
+    width: 100%;
+    border-radius: 10%;
+    height: 30vh;
+    image-rendering: optimizeQuality;
+}
+  
