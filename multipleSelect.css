@@ -1,0 +1,13 @@
+.intro-nav .small-logo{
+    width: 50px;
+}
+
+.selections{
+    width: 85vw;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
