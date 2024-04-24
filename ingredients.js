@@ -63,7 +63,7 @@ function displayFilteredIngredients(filteredIngredients) {
         link.style.fontWeight = '900';
         link.style.fontSize = 'large'
         link.style.margin = '0px'
-        link.href = 'recipes.html';
+        link.href = 'multipleSelect.html';
         link.textContent = mealIngredient.strIngredient;
         link.id = mealIngredient.strIngredient;
         link.addEventListener('click', getClickedItem);
@@ -113,7 +113,7 @@ async function showIngredients(){
       var cardAction = document.createElement('div');
       cardAction.className = 'card-action';
       var link = document.createElement('a');
-      link.href = 'recipes.html';
+      link.href = 'multipleSelect.html';
       link.textContent = mealIngredient.strIngredient;
       link.style.color = '#663333';
       link.style.fontWeight = '900';

@@ -1,13 +1,36 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(/images/Designer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
 .intro-nav .small-logo{
     width: 50px;
 }
 
 .selections{
+    
     width: 85vw;
-    border: 1px solid black;
     margin: auto;
+    margin-left: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: auto;
+    margin-top: 25vh;
+}
+
+
+.input-field{
+    margin-left: 25%;
+    zoom: 125%;
+}
+
+
+.btn{
+    margin-left: 49%;
 }

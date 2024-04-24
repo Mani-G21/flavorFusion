@@ -63,12 +63,20 @@ function saveMealId(){
 
 async function getSelectedOption(){
     if(selectedOption == 'search'){
-        ingredient = localStorage.getItem('ingredient')
-        introText.innerHTML = `Recipes involving ${ingredient}`;
-        var response = await(fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredient}`))
-        data = await response.json()
-        loader.style.visibility = 'hidden';
-        displayRecipes(data)
+        const storedRecipes = JSON.parse(localStorage.getItem('filteredRecipes'));
+        console.log(storedRecipes)
+        // introText.innerHTML = `Recipes involving ${ingredient}`;
+        storedRecipes.forEach(async recipe => {
+            console.log(recipe.idMeal);
+            var response = await(fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${recipe.idMeal}`))
+            data = await response.json()
+            console.log(data.meals[0])
+            loader.style.visibility = 'hidden';
+            displayRecipes(data)
+        })
+
+        // loader.style.visibility = 'hidden';
+        // displayRecipes(data)
     }
     else if(selectedOption == 'Regional'){
         nation = localStorage.getItem('Nation')
